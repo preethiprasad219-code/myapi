@@ -1,23 +1,62 @@
-# FastAPI Todo API
+\# FastAPI Todo API
 
-A simple Todo API built using FastAPI and Python.
 
-## Features
 
-- Get all todos
-- Add a new todo
-- Delete a todo
-- Interactive API documentation using Swagger UI
+A simple Todo API built using FastAPI, Python, SQLAlchemy, and PostgreSQL.
 
-## Technologies Used
 
-- Python
-- FastAPI
-- Uvicorn
 
-## How to Run
+\## Features
 
-Install the required packages:
 
-```bash
-pip install fastapi uvicorn
+
+\- Get all todos
+
+\- Add a new todo
+
+\- Delete a todo
+
+\- Store todos in PostgreSQL database
+
+\- SQLAlchemy database integration
+
+\- Interactive API documentation using Swagger UI
+
+
+
+\## Technologies Used
+
+
+
+\- Python
+
+\- FastAPI
+
+\- Uvicorn
+
+\- SQLAlchemy
+
+\- PostgreSQL
+
+\- Psycopg2
+
+
+
+\## Project Structure
+
+
+
+```text
+
+myapi/
+
+│
+
+├── app.py
+
+├── database.py
+
+├── README.md
+
+└── .gitignore
+
